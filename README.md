@@ -1,5 +1,6 @@
 # Regex-Anatomy
 ## anatomy of regular expressions and how to use them
+### I am using javascript in this example today but this applies to multiple languages to my understanding.
 
 https://regexr.com/ is a great resource to practice regular expressions.
 
