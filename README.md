@@ -10,11 +10,11 @@ It was searching for a mouse to eat.
 what goes inbetween the slashes is the search criteria
 what comes after the closing slash are tags such as:
 
-g Means global
-i means case insensitive
-m is multiline
-s is singleline
-u is unicode
+g Means global  
+i means case insensitive  
+m is multiline  
+s is singleline  
+u is unicode  
 y is sticky
 
 By itself, the search crtieria is not all that powerful.
