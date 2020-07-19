@@ -10,7 +10,7 @@ It was searching for a mouse to eat.
 what goes inbetween the slashes is the search criteria
 what comes after the closing slash are tags such as:
 
-g Means globsl
+g Means global
 i means case insensitive
 m is multiline
 s is singleline
