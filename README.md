@@ -4,10 +4,13 @@
 
 https://regexr.com/ is a great resource to practice regular expressions.
 
+regexexample: /cat/g
+
 The fat cat ran down the street.
 It was searching for a mouse to eat.
 
 what goes inbetween the slashes is the search criteria
+in this case we're looking for the string 'cat'
 what comes after the closing slash are tags such as:
 
 g Means global  
