@@ -6,9 +6,11 @@ https://regexr.com/ is a great resource to practice regular expressions.
 
 regexexample: /cat/g
 
+example string: 
+"""
 The fat cat ran down the street.
 It was searching for a mouse to eat.
-
+"""
 what goes inbetween the slashes is the search criteria
 in this case we're looking for the string 'cat'
 what comes after the closing slash are tags such as:
@@ -22,7 +24,7 @@ y is sticky
 
 By itself, the search crtieria is not all that powerful.
 But let's say we want to search for all ee's
-If you do /e+/g is will match as many e's ina row you can find but will match with at minimum one e.
+If you do /e+/g is will match as many e's ina row you can find but will match with at minimum one 'e'.
 
 /ea?/g means it will look for all e's and all a's that come after e but the a is optional.
 Whatever character that comes before the ? is considered "optional"
@@ -66,8 +68,10 @@ however if you had
 
 /^/g means match the beginning of the line
 
+"""
 The fat cat ran down the street.
 It was searching for a mouse to eat.
+"""
 
 would result in 'T' from the first line
 
@@ -93,7 +97,9 @@ More Examples
 
 RegEx to check for Phone Number
 
+"""
 1234567890
+"""
 /\d{10}/g gives me a match becasue it's looking for 10 digits in a row.
 
 how do we account for multiple formats like the following:
@@ -122,6 +128,8 @@ Groups can then be manipulated like so:
 $1$2$3 returns '1234567890'
 This is because we are saying to put group1 group2 and group3 one after another.
 By default you can call groups like this but you can also attach labels to them!
+
+/* As an aside, if you following along on Regexer.com plug the $1$2$3 into the replace tool at the bottom of the page. It might be kind of hard to visualize until we assign a label to the capture groups */
 
 /(?<areacode>\d{3})[ -]?(\d{3})[ -]?(\d{4})/gm
 labels group1 as 'areacode'
