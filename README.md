@@ -4,7 +4,10 @@
 
 https://regexr.com/ is a great resource to practice regular expressions.
 
-regexexample: /cat/g
+regexexample: 
+```
+/cat/g
+```
 
 example string: 
 ```
@@ -24,12 +27,15 @@ y is sticky
 
 By itself, the search crtieria is not all that powerful.
 But let's say we want to search for all ee's
-If you do /e+/g is will match as many e's ina row you can find but will match with at minimum one 'e'.
+If you do /e+/g it will match as many e's ina row you can find but will match with at minimum one 'e'.
 
-/ea?/g means it will look for all e's and all a's that come after e but the a is optional.
+```
+/ea?/g 
+```
+means it will look for all e's and all a's that come after e but the a is optional.
 Whatever character that comes before the ? is considered "optional"
 
-/re*/g the * is optional but match as many as zero or more. So it would match the ree in 'street' or just the r in 'for'
+``` /re*/g ```the * is optional but match as many as zero or more. So it would match the ree in 'street' or just the r in 'for'
 
 /.at/g  the '.' will match anything, so in this case it would match 'cat' 'rat' or 'eat'
 /t../ will match anything starting with t and the next two characters after it including spaces. so 'street' will match 'tre' or ' to ' will return 'to '
