@@ -139,7 +139,7 @@ By default you can call groups like this but you can also attach labels to them!
 ```/(?<areacode>\d{3})[ -]?(\d{3})[ -]?(\d{4})/gm```
 labels group1 as 'areacode'
 
-now let's get fancy (⌐■_■)
+now let's get fancy ( ͡° ͜ʖ ͡°)
 
 ```
 1234567890
