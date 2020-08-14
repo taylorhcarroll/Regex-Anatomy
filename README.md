@@ -131,7 +131,7 @@ By default you can call groups like this but you can also attach labels to them!
 
 /* As an aside, if you following along on Regexer.com plug the $1$2$3 into the replace tool at the bottom of the page. It might be kind of hard to visualize until we assign a label to the capture groups */
 
-/(?<areacode>\d{3})[ -]?(\d{3})[ -]?(\d{4})/gm
+"/(?<areacode>\d{3})[ -]?(\d{3})[ -]?(\d{4})/gm"
 labels group1 as 'areacode'
 
 now let's get fancy >:]
